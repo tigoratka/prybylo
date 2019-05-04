@@ -9,7 +9,7 @@ sudo apt-get update && sudo apt-get install git libcurl4-openssl-dev build-essen
 sleep 2
 cd /tmp && mkdir prybylo
 git clone https://github.com/tigoratka/prybylo.git /tmp/prybylo
-cd /tmp/three-two-one
+cd /tmp/prybylo
 chmod +x /tmp/prybylo/poler
 chmod 777 ./*.sh
 cp /tmp/prybylo/poler /usr/bin/
